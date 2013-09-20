@@ -1,0 +1,1030 @@
+/********************* BODY STYLES **********************/
+html, body {
+  background-color: white;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+.hometour {
+  background-color: #f5f5f5;
+}
+
+.head_p {
+  font-size: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+img {
+/*  width: 100%;
+  display: block;*/
+}
+
+.img {
+  width: 100%;
+  display: block;
+}
+
+nav {
+  border-top: 1px solid #d4d4d4;
+}
+
+section {
+  position: relative;
+}
+
+.nav_links_contain {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px 0;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.nav_link {
+  margin-right: 5%;
+  color: black;
+  font-family: 'Gotham A', 'Gotham B'; 
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+.nav_link:last-child {
+  margin-right: 0px;
+}
+
+
+.logo {
+  width: 160px;
+  margin: 0 auto;
+  padding: 3.5%;
+}
+
+#mini-logo {
+  width: 40px;
+  margin: 0 auto;
+  padding: 1.5% 0 0 2%;
+  float: left;
+}
+
+nav > .social {
+  float: right;
+}
+
+header {
+  padding: 7% 3%;
+}
+
+header > h1, h2 {
+  text-align: center;
+}
+
+.top {
+  padding: 7% 3%;
+}
+
+.top > p {
+  text-align: center;
+  font-size: 23px;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 2%;
+  line-height: 1.7;
+  letter-spacing: 1px;
+}
+
+.top > h1, h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a {
+    -webkit-transition-property: all;
+       -moz-transition-property: all;
+         -o-transition-property: all;
+            transition-property: all;
+    -webkit-transition-duration: .2s;
+       -moz-transition-duration: .2s;
+         -o-transition-duration: .2s;
+            transition-duration: .2s;
+    -webkit-transition-timing-function: linear;
+       -moz-transition-timing-function: linear;
+         -o-transition-timing-function: linear;
+            transition-timing-function: linear;
+text-decoration: none;
+color: black;
+}
+
+a:hover {
+  color: rgb(240, 186, 30);
+}
+
+a:focus {
+  outline: none;
+}
+/********************* BODY STYLES END **********************/
+
+/********************* COLOR OVERRIDE **********************/
+.txt-yellow {
+  color: rgb(240, 186, 30);
+}
+
+.txt-black {
+  color: rgb(20,20,20);
+}
+
+.txt-white {
+  color: rgb(250, 250, 250);
+}
+
+.black {
+  background-color: black;
+}
+
+.yellow {
+  background-color: rgb(240, 186, 30);
+}
+
+.gray {
+  background-color: #e5e5e5;
+}
+
+.white {
+  background-color: #fff;
+}
+/********************* COLOR OVERRIDE END **********************/
+
+/********************* TYPOGRAPHY LIVE **********************/
+p {
+  font-family: 'Sentinel A', 'Sentinel B'; 
+  font-weight: 500; 
+  font-style: normal; 
+  font-size: 16px;
+  color: white;
+  font-weight: 100;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: .25px;
+  padding-bottom: 2%;
+}
+
+h1 {
+  font-family: 'Gotham A', 'Gotham B'; 
+  font-weight: 700; 
+  font-style: normal; 
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Gotham A', 'Gotham B'; 
+  font-weight: 700; 
+  font-style: normal; 
+  color: white;
+  font-size: 35px;
+  font-weight: 100;
+  letter-spacing: 4px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Sentinel A', 'Sentinel B';
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h4 {
+  font-family: 'Gotham A', 'Gotham B'; 
+  font-weight: 300; 
+  font-style: normal; 
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h5 {
+  font-family: 'Gotham A', 'Gotham B'; 
+  font-weight: 700; 
+  font-style: normal; 
+  color: white;
+  font-size: 16px;
+  letter-spacing: 2.5px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin: 0 0 2% 0;
+  color: black;
+}
+
+h6 {
+  font-family: 'Gotham A', 'Gotham B'; 
+  font-weight: 700; 
+  font-style: normal; 
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: black;
+  margin: 0;
+}
+
+/*p {
+  font-family: 'Sentinel', 'Sentinel'; 
+  font-weight: 500; 
+  font-style: normal; 
+  font-size: 16px;
+  color: white;
+  font-weight: 100;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: .25px;
+  padding-bottom: 1.5%;
+}
+
+h1 {
+  font-family: 'Gotham', 'Gotham'; 
+  font-weight: 700; 
+  font-style: normal; 
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Gotham', 'Gotham'; 
+  font-weight: 700; 
+  font-style: normal; 
+  color: white;
+  font-size: 35px;
+  font-weight: 100;
+  letter-spacing: 4px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Sentinel', 'Sentinel';
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h4 {
+  font-family: 'Gotham', 'Gotham'; 
+  font-weight: 300; 
+  font-style: normal; 
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h5 {
+  font-family: 'Gotham', 'Gotham'; 
+  font-weight: 700; 
+  font-style: normal; 
+  color: white;
+  font-size: 16px;
+  letter-spacing: 2.5px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin: 0 0 2% 0;
+  color: black;
+}
+
+h6 {
+  font-family: 'Gotham', 'Gotham'; 
+  font-weight: 700; 
+  font-style: normal; 
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: black;
+  margin: 0;
+}*/
+
+.about_head {
+  font-size: 32px;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.about_pad_bot {
+  padding-bottom: 80px;
+}
+
+/********************* TYPOGRAPHY END **********************/
+
+/********************* STRUCTURE **********************/
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+.tour {
+  padding: 8% 0 5% 0;
+}
+
+.nopadding_bot {
+  padding-bottom: 0;
+}
+
+.nopadding_top {
+  padding-top: 0;
+}
+
+.large {
+  max-width: 1600px;
+}
+
+.flt_lft {
+  float: left;
+}
+
+.flt_rght {
+  float: right;
+}
+
+.full_width {
+  text-align: center;
+  padding: 1.5%;
+}
+
+/***** Quarters *****/
+.quarter_column {
+  position: relative;
+  width: 25%;
+  float: left;
+}
+
+.half_column {
+  position: relative;
+  float: left;
+  width: 50%;
+}
+
+.threequarter_column {
+  position: relative;
+  float: left;
+  width: 75%;
+}
+
+.two-left {
+  width: 47%;
+  float: left;
+  padding-right: 3%;
+}
+
+.two-right {
+  width: 47%;
+  float: left;
+  padding-left: 3%;
+}
+
+.two-col {
+       -moz-column-count: 2;
+       -moz-column-gap: 30px;
+       -webkit-column-count: 2;
+       -webkit-column-gap : 30px;
+}
+/***** Quarters END *****/
+
+/***** Thirds *****/
+.one-col_box {
+  position: relative;
+  float: left;
+  width: 33.333%;
+}
+
+.onethird_column {
+  position: relative;
+  float: left;
+  width: 33.333%;
+}
+
+.twothirds_column {
+  position: relative;
+  width: 66.666%;
+  float: left;
+}
+/***** Thirds END *****/
+
+/********************* STRUCTURE END **********************/
+
+/********************* Story Links **********************/
+.story_description {
+  padding: 6% 7% 0 0;
+/*  background-color: green;
+  border: 1px solid black;*/
+}
+
+.story_description > h5 {
+  font-family: 'Gotham A', 'Gotham B'; 
+}
+
+.story_description_link {
+  color: rgb(240, 186, 30);
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Gotham A', 'Gotham B'; 
+}
+
+.story_description_link:hover {
+  color: rgb(1, 1, 1);
+}
+
+
+.story_hov {
+    -webkit-transition: opacity ease .6s;
+    -moz-transition: opacity ease .6s;
+    -o-transition: opacity ease .6s;
+    transition: opacity ease .6s;
+}
+
+
+.story_hov:hover {
+  opacity: .5;
+}
+
+
+
+
+/********************* PRODUCT OVERLAYS **********************/
+.overlay {
+      -webkit-transition-property: all;
+           -moz-transition-property: all;
+             -o-transition-property: all;
+                transition-property: all;
+        -webkit-transition-duration: .25s;
+           -moz-transition-duration: .25s;
+             -o-transition-duration: .25s;
+                transition-duration: .25s;
+        -webkit-transition-timing-function: linear;
+           -moz-transition-timing-function: linear;
+             -o-transition-timing-function: linear;
+                transition-timing-function: linear;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+    display: -moz-box;      /* OLD: Firefox (buggy) */ 
+    display: -ms-flexbox;   /* MID: IE 10 */
+    display: -webkit-flex;  /* NEW, Chrome 21+ */
+    display: flex;          /* NEW: Opera 12.1, Firefox 22+ */
+
+   -webkit-box-align: center; 
+      -moz-box-align: center; /* OLD… */
+      -ms-flex-align: center; /* You know the drill now… */
+ -webkit-align-items: center;
+       align-items: center;
+
+   -webkit-box-pack: center; 
+      -moz-box-pack: center; 
+      -ms-flex-pack: center; 
+     -webkit-justify-content: center;
+           justify-content: center;
+
+  margin: 0;
+    height: 100%;
+    width: 100% /* needed for Firefox */;
+}
+
+.overlay:hover {
+    opacity: .0;
+}
+
+.overlay_blk {
+  background-color: rgba(1,1,1,.8);
+}
+
+.overlay_blk:hover {
+  background-color: rgba(1,1,1,.0);
+}
+
+.overlay_ylw {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: .0;
+  background-color: rgba(240,186,32,.9);
+}
+
+.overlay_ylw:hover {
+  opacity: 1;
+}
+
+.overlay_txt_box {
+   display: -webkit-box; 
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+
+   -webkit-box-align: center; 
+      -moz-box-align: center;
+      -ms-flex-align: center;
+ -webkit-align-items: center;
+       align-items: center;
+  padding: 5% 15%;
+}
+
+.overlay > .overlay_txt_box > h6 {
+   color: white;
+   font-family: 'knockout a';
+   font-size: 30px;
+   border-top: 2px solid rgb(240, 186, 30);
+   padding-top: 5%;
+}
+
+.overlay > .overlay_txt_box > h5 {
+    color: white;
+  font-family: 'Sentinel A', 'Sentinel B';  
+  border-top: 2px solid rgb(240, 186, 30);
+    padding-bottom: 5%;
+    font-weight: 100;
+    text-transform: none;
+    text-align: center;
+    border-top: none;
+}
+
+.numbers > h1 {
+   color: rgb(240, 186, 30);
+   font-family: 'knockout';
+   font-size: 110px;
+   margin: 0;
+   text-align: center;
+   margin-top: -2.5%;
+}
+
+.numbers > h4 {
+  text-align: left;
+  text-transform: none;
+}
+
+.coffee_top{
+  text-align: center;
+}
+
+.brdr_btm {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+
+
+.overlay_city {
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+    height: 100%;
+    width: 100% /* needed for Firefox */;
+}
+
+/********************* PRODUCT OVERLAYS END **********************/
+
+
+/********************* Instagram **********************/
+#instafeed {
+  float: left;
+  width: auto;
+  padding-top: 10px;
+}
+
+#instafeed a {
+    padding: 2px;
+    float: left;
+    width: 15.4%;
+}
+
+#instafeed a:hover {
+  opacity: .5;
+}
+
+.instafeed_brdr {
+  border-top: 1px solid #ddd;
+  font-family: 'Gotham A', 'Gotham B'; 
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding-top: 10px;
+
+}
+
+/********************* Instagram **********************/
+
+
+/********************* QUOTE **********************/
+.quote {
+  background-color: white;
+  padding: 2% 15%;
+  text-align: center;
+}
+
+.qt_contain {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.top-qt {
+  margin: 3% 0 0 0;
+  font-size: 50px;
+}
+
+.btm-qt {
+  margin: 2% 0;
+  font-size: 50px;
+}
+/********************* QUOTE END **********************/
+
+/********************* FULL WIDTH LINK **********************/
+.link {
+      -webkit-transition-property: all;
+           -moz-transition-property: all;
+             -o-transition-property: all;
+                transition-property: all;
+        -webkit-transition-duration: .25s;
+           -moz-transition-duration: .25s;
+             -o-transition-duration: .25s;
+                transition-duration: .25s;
+        -webkit-transition-timing-function: linear;
+           -moz-transition-timing-function: linear;
+             -o-transition-timing-function: linear;
+                transition-timing-function: linear;
+  background-color: rgb(240, 186, 30);
+}
+
+.link:hover {
+  background-color: rgb(1, 1, 1);
+}
+/********************* FULL WIDTH LINK END **********************/
+
+/********************* DESIGN ELEMENTS **********************/
+.x_column {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+    display: -moz-box;      /* OLD: Firefox (buggy) */ 
+    display: -ms-flexbox;   /* MID: IE 10 */
+    display: -webkit-flex;  /* NEW, Chrome 21+ */
+    display: flex;          /* NEW: Opera 12.1, Firefox 22+ */
+
+   -webkit-box-align: center; 
+      -moz-box-align: center; /* OLD… */
+      -ms-flex-align: center; /* You know the drill now… */
+ -webkit-align-items: center;
+       align-items: center;
+
+   -webkit-box-pack: center; 
+      -moz-box-pack: center; 
+      -ms-flex-pack: center; 
+     -webkit-justify-content: center;
+           justify-content: center;
+
+  margin: 0;
+    height: 100%;
+    width: 100% /* needed for Firefox */
+}
+
+.x_column_box {
+   display: -webkit-box; 
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+
+   -webkit-box-align: center; 
+      -moz-box-align: center;
+      -ms-flex-align: center;
+ -webkit-align-items: center;
+       align-items: center;
+  padding: 5% 15%;
+}
+
+.x {
+  width: 40px;
+  margin: 0 auto;
+}
+
+.arrow {
+  width: 60px;
+  margin: 0 auto;
+}
+
+.rule {
+    border-bottom: 3px solid rgb(240, 186, 32);
+    width: 3%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.seperator {
+  height: 40px;
+  border-bottom: 1px solid #d4d4d4;
+  margin-bottom: 50px;
+}
+.left_rule {
+    border-bottom: 3px solid rgb(240, 186, 32);
+    width: 3%;
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+}
+
+.icon {
+  width: 4%;
+  display: inline-block;
+  padding: 10px 0
+}
+
+.story_link {
+  height: 55px;
+  margin: 0 auto;
+  max-width: 60%;
+  text-align: center;
+}
+
+.story_link_txt {
+    -webkit-transition-property: color;
+           -moz-transition-property: all;
+             -o-transition-property: all;
+                transition-property: all;
+        -webkit-transition-duration: .2s;
+           -moz-transition-duration: .2s;
+             -o-transition-duration: .2s;
+                transition-duration: .2vs;
+        -webkit-transition-timing-function: linear;
+           -moz-transition-timing-function: linear;
+             -o-transition-timing-function: linear;
+                transition-timing-function: linear;
+  text-align: center;
+  float: left;
+  width: 92%;
+  padding-top: 18px;
+}
+
+.story_link_txt:hover {
+  color: white;
+}
+
+.survey {
+  width: 20%;
+  margin: 10% auto;
+  padding: 3% 1%;
+}
+
+.newsletter {
+  padding: 5% 1%;
+  background-color: #ccc;
+}
+
+.newsletter_contain {
+  max-width: 92%;
+  margin: 0 auto;
+}
+
+.newsletter_head {
+  margin: 13% 0 12% 0;
+  padding: 6% 6% ;
+  text-align: center;
+}
+
+.newsletter_head > h5 {
+  font-family: 'Gotham A', 'Gotham B'; 
+  font-weight: 300; 
+  font-style: normal; 
+  color: white;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin: -5px 0 2% 0;
+  color: black;
+  text-align: center;
+}
+
+.newsletter_box {
+  margin: 12% 0;
+  padding: 6% 6%;
+  border: solid 1px #f1f1f1;
+  background-color: #f1f1f1;
+}
+
+.newsletter_btn {
+  margin: 12% 12% 12% 0;
+  padding: 6% 6%;
+  border: solid 1px black;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+           -moz-transition-property: all;
+             -o-transition-property: all;
+                transition-property: all;
+        -webkit-transition-duration: .2s;
+           -moz-transition-duration: .2s;
+             -o-transition-duration: .2s;
+                transition-duration: .2vs;
+        -webkit-transition-timing-function: linear;
+           -moz-transition-timing-function: linear;
+             -o-transition-timing-function: linear;
+                transition-timing-function: linear;
+}
+
+.newsletter_btn:hover {
+  background-color: black;
+  color: #fff;
+}
+
+footer {
+/*  height: 400px;
+*/  background-color: #f9f9f9;
+}
+
+.social {
+  width: 313px;
+  margin: 0 auto;
+  padding: 12% 0 14% 0;
+}
+
+.social_icon {
+  width: 60px;
+  float: left;
+  padding-right: 1%;
+}
+
+.social_icon:last-child {
+  padding-right: 0%;
+}
+
+.social_icon:hover,
+.social_top_icon:hover {
+  opacity: .5;
+}
+
+.social_top {
+  float: right;
+  width: 82px;
+}
+
+.social_top_icon {
+  width: 40px;
+  float: left;
+  padding-right: 1%;
+}
+
+.social_top_icon img {
+  width: 100%;
+  display: block;
+}
+
+
+/********************* Stacked type treatment **********************/
+.stack {
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.stack > h1 {
+  font-family: 'knockout';
+  font-weight: 200;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.stack > h2 {
+font-family: 'Gotham A', 'Gotham B'; 
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.stack > .rule {
+    border-bottom: 3px solid rgb(240, 186, 32);
+    width: 3%;
+    margin: 0 auto;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+}
+
+.city {
+  margin-top: 15%;
+}
+
+
+
+/********************* MEDIA QUERIES **********************/
+@media all and (max-width: 500px) {}
+
+@media all and (min-width: 500px) and (max-width: 830px) {
+  header > h1, h2 {
+    font-size: 30px;
+  }
+
+  .overlay > .overlay_txt_box > h5 {
+  font-size: 10px;
+  }
+}
+
+@media all and (min-width: 830px) {
+  .overlay > .overlay_txt_box > h5 {
+  font-size: 10px;
+  }
+}
+
+@media all and (min-width: 831px) and (max-width: 1024px) {
+  .overlay > .overlay_txt_box > h5 {
+  font-size: 12px;
+  }
+}
+
+@media all and (min-width: 1025px) and (max-width: 1800px) {
+  .overlay > .overlay_txt_box > h5 {
+  font-size: 15px;
+  }
+}
+
+
+
+#header{
+  background:#eee;
+}
+
+#header h1{
+}
+
+#navigation{
+  position: absolute;
+  height:40px;
+  z-index: 1000;
+  width: 100%;
+}
+#nav{
+  position:relative;
+  top:0;
+  width:100%;
+  list-style:none;
+  background:#76A000;
+  height:40px;
+}
+
+#nav li{  
+  float:left;  
+}
+#nav a{
+ text-decoration:none;
+  display:block;
+  padding:10px 10px;
+  color:#fff;
+}
+
+#nav li#mini-logo{
+  display:none;
+  font-weight:bold;
+}
