@@ -5,22 +5,22 @@
       <p> Follow Us </p>
         <ul class="follow-list">
           <li class="follow-icon"> 
-            <a href="https://twitter.com/TRNKNewYork">
+            <a class='social_top_icon' target="_blank" href="https://twitter.com/trnknyc">
               <img src="https://s3-us-west-2.amazonaws.com/trnk-images/twitter.png">
             </a>
           </li>
           <li class="follow-icon"> 
-            <a href="https://www.facebook.com/pages/TRNK-New-York/171883279616736">
+            <a class='social_top_icon' target="_blank" href="https://www.facebook.com/pages/TRNK-New-York/171883279616736">
               <img src="https://s3-us-west-2.amazonaws.com/trnk-images/facebook.png">
             </a>
           </li>
           <li class="follow-icon"> 
-            <a href="http://instagram.com/trnknyc/">
+            <a class='social_top_icon' target="_blank" href="http://instagram.com/trnknyc/">
               <img src="https://s3-us-west-2.amazonaws.com/trnk-images/instagram.png">
             </a>
           </li>
           <li class="follow-icon"> 
-            <a href="http://pinterest.com/trnknyc/boards/">
+            <a class='social_top_icon' target="_blank" href="http://pinterest.com/trnknyc/boards/">
               <img src="https://s3-us-west-2.amazonaws.com/trnk-images/pinterest.png">
             </a>
           </li>

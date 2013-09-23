@@ -53,7 +53,6 @@ TRNK</title>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/jquery.fancybox.pack.js"></script>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/js/skin.css">
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/fancybox/jquery.fancybox.css">
-<link rel="stylesheet" type="text/css" href="./trnkblog.css">
 <link rel='stylesheet' id='gforms_formsmain_css-css'  href='http://www.trnk-newyork.com/wp-content/plugins/gravityforms/css/formsmain.css?ver=1.7.3' type='text/css' media='all' />
 <!-- Load Modernizr which enables HTML5 elements & feature detects -->
 
@@ -329,6 +328,13 @@ $("#hide_filters").click(function(){
 });
 
 </script>
+
+<!-- Scripts for Jake's homepage re-design -->
+<script type="text/javascript" src="http://localhost:8888/trnk/wp-content/themes/woostore-child/js/hello.js"></script>
+<script type="text/javascript" src="http://localhost:8888/trnk/wp-content/themes/woostore-child/js/instafeed.min.js"></script>
+<script type="text/javascript" src="http://localhost:8888/trnk/wp-content/themes/woostore-child/js/responsiveslides.min.js"></script>
+<!-- End scripts for Jake's homepage re-design -->
+
 <?php wp_head(); ?>
 <?php woo_head(); ?>
 
@@ -341,6 +347,7 @@ $("#hide_filters").click(function(){
 <![endif]-->
 
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6558852/772602/css/fonts.css" />
+
 
 </head>
 
@@ -355,38 +362,19 @@ $("#hide_filters").click(function(){
 <!-- </div> -->
 
 
-<div class='social_top'>
-    <a href="https://twitter.com/trnknyc" class='social_top_icon'><img src="https://s3-us-west-2.amazonaws.com/trnk-images/twitter.png"></a>
-    <a href="https://www.facebook.com/pages/TRNK-New-York/171883279616736?ref=br_tf" class='social_top_icon'><img src="https://s3-us-west-2.amazonaws.com/trnk-images/facebook.png"></a>
-</div>
-
 <div class='logo'>
-  <a href='index.html'><img class="logo" title="logo" src="https://s3-us-west-2.amazonaws.com/trnk-images/trnk_logo.png"></a>
+  <a href="<?php get_home_url(); ?>"><img class="logo" title="logo" src="https://s3-us-west-2.amazonaws.com/trnk-images/trnk_logo.png"></a>
 </div>
 
 <nav class='new-nav group'>
   <div class='nav_links_contain group'>
     <?php wp_nav_menu( array( 'depth' => 6, 'sort_column' => 'menu_order', 'container' => '', 'theme_location' => 'primary-menu' ) ); ?>
-    <!-- <a class='nav_link' href='hometour.html'>Stories</a>
-    <a class='nav_link' href='#'>Blog</a>
-    <a class='nav_link' href='about.html'>About</a> -->
+    <div class='social_top'>
+        <a href="https://twitter.com/trnknyc" target="_blank" class='social_top_icon'><img src="https://s3-us-west-2.amazonaws.com/trnk-images/twitter.png"></a>
+        <a href="https://www.facebook.com/pages/TRNK-New-York/171883279616736?ref=br_tf" target="_blank"` class='social_top_icon'><img src="https://s3-us-west-2.amazonaws.com/trnk-images/facebook.png"></a>
+    </div>
+
   </div>
 </nav>
-
-
-<!--   <header class="new-header">
-    
-    <h1 class="trnk gradient"> TRNK </h1>
-    <small class="new-york-city"> New york City </small>
-
-    <nav class="new-nav"> -->
-      <?php //wp_nav_menu( array( 'depth' => 6, 'sort_column' => 'menu_order', 'container' => 'ul', 'theme_location' => 'primary-menu' ) ); ?>
-<!--       <div class="social-media-links">
-        <a href="/facebook" class="social-media-link"> f </a>
-        <a href="/twitter" class="social-media-link"> t </a>
-      </div> -->
-<!--     </nav>
-
-  </header> -->
 
 <div id="container">

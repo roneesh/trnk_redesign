@@ -39,20 +39,6 @@ $(document).ready(function() {
       <h1 class="single_title"><?php the_title(); ?></h1>
       <div class="rule"></div> 
       <div class="post_author">by <?php echo get_the_author(); ?></div>
-            
-            <!-- <div class="on_post_share"> -->
-             <!-- AddThis Button BEGIN -->
-<!-- <div class="addthis_toolbox addthis_default_style ">
-<a class="addthis_button_facebook" addthis:url="<? the_permalink(); ?>" addthis:title="<? the_title(); ?>" addthis:description="<? the_excerpt(); ?>"></a>
-<a class="addthis_button_twitter" addthis:url="<? the_permalink(); ?>" addthis:title="<? the_title(); ?>" addthis:description="<? the_excerpt(); ?>"></a>
-<a class="addthis_button_email" addthis:url="<? the_permalink(); ?>" addthis:title="<? the_title(); ?>" addthis:description="<? the_excerpt(); ?>"></a>
-<a class="addthis_button_compact" addthis:url="<? the_permalink(); ?>" addthis:title="<? the_title(); ?>" addthis:description="<? the_excerpt(); ?>"></a>
-<a class="addthis_counter addthis_bubble_style" addthis:url="<? the_permalink(); ?>" addthis:title="<? the_title(); ?>" addthis:description="<? the_excerpt(); ?>"></a>
-</div>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-515ed84a4f219fab"></script>
- --><!-- AddThis Button END -->
-            <!-- </div> -->
-      <?php //the_post_thumbnail('large'); ?>
       <?php the_content(); ?>
       <div class="rule-small"></div> 
       <div class="share-menu">
@@ -62,7 +48,7 @@ $(document).ready(function() {
           <span class="social-media-share-link"><a class="addthis_button_twitter" addthis:url="<? the_permalink(); ?>" addthis:title="<? the_title(); ?>" addthis:description="<? the_excerpt(); ?>"></a></span>
           <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-515ed84a4f219fab"></script>
         </p>
-        <p><?php the_tags(); ?> </p>
+        <!-- <p><?php //the_tags(); ?> </p> -->
       </div>
 
 <!--             <div class="comments_title">COMMENTS</div>

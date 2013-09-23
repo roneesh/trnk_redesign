@@ -25,11 +25,11 @@
     <div class='links'>
 <!--       <a href="http://trnk-newyork.tumblr.com/"><img src="./lightbox_img/tumblr_icon.svg"></img></a>
  -->      
-      <a href="https://twitter.com/TRNKNewYork"><img src="https://s3-us-west-2.amazonaws.com/trnk-images/twitter.png"></a>
-      <a href="https://www.facebook.com/pages/TRNK-New-York/171883279616736"><img src="https://s3-us-west-2.amazonaws.com/trnk-images/facebook.png"></a>
-      <a href="http://instagram.com/trnknyc/"><img src="https://s3-us-west-2.amazonaws.com/trnk-images/instagram.png"></a>
-      <a href="http://pinterest.com/trnknyc/boards/"><img src="https://s3-us-west-2.amazonaws.com/trnk-images/pinterest.png"></a>
-      <a href="mailto:nick@trnk-nyc.com"><img src="https://s3-us-west-2.amazonaws.com/trnk-images/email.png"></a>
+      <a class="social-footer-icon" href="https://twitter.com/trnknyc" target="_blank"><img src="https://s3-us-west-2.amazonaws.com/trnk-images/twitter.png"></a>
+      <a class="social-footer-icon" href="https://www.facebook.com/pages/TRNK-New-York/171883279616736" target="_blank"><img src="https://s3-us-west-2.amazonaws.com/trnk-images/facebook.png"></a>
+      <a class="social-footer-icon" href="http://instagram.com/trnknyc/" target="_blank"><img src="https://s3-us-west-2.amazonaws.com/trnk-images/instagram.png"></a>
+      <a class="social-footer-icon" href="http://pinterest.com/trnknyc/boards/" target="_blank"><img src="https://s3-us-west-2.amazonaws.com/trnk-images/pinterest.png"></a>
+      <a class="social-footer-icon" href="mailto:info@trnk-nyc.com" target="_blank"><img src="https://s3-us-west-2.amazonaws.com/trnk-images/email.png"></a>
 
     </div>
   </section>
